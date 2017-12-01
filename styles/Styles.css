@@ -457,7 +457,7 @@ ul{
 }
 
 body{
-  background: #E0F2F1;
+  background: white;
 }
 
 a{
@@ -476,11 +476,11 @@ body>#container{
  * height: 800px;
   margin: 0 auto;
   width: 980px;
-  background: #B2DFDB;
+  background: #ECEFF1;
 }
 
 body>#container>header{
-  background: #009688;
+  background: #B0BEC5;
   width: 100%;
 }
 /* HEADER */
@@ -571,7 +571,7 @@ header nav ul .activo>i, nav ul .activo>a:hover{
 /* Section hightlights */
 
 #web>#highlights .barraHG{
-  background: #00695C;
+  background: #607D8B;
   grid-area: barra;
   z-index: 1000;
  -webkit-box-shadow: 0px 7px 16px 0px rgba(0,0,0,0.75);
@@ -692,9 +692,9 @@ a>.backgroundShadow:hover{
 }
 
 #web main .prepost .prepostUrl>a>h2{
-  color: #482686;
+  color: black;
   font-family: 'Roboto', sans-serif;
-  background: #26A69A;
+  background: #B0BEC5;
   padding: 1%;
   margin: 0;
 }
@@ -822,4 +822,23 @@ border: 1px solid green;
 
 .derechos a{
   color: #cfdbff;
+}
+
+/* Animacion */
+#barraHGH3 {
+  animation-duration: 4s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%
+  }
+
+  to {
+    margin-left: 1%;
+    margin: 1%;
+    width: 100%;
+  }
 }
